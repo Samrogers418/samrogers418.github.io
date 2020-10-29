@@ -17,10 +17,7 @@ h1{
     color:olive;
   }
 
-  div.pics {display: inline;
-    }
-  
-  ul > li{
+   ul > li{
       color: rgba(255,255,255,0.7);
       
   }
