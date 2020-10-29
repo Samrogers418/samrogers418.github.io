@@ -1,6 +1,37 @@
-body {
-    background-color: rgb(82, 86, 89);
-    color: var(--primary-text-color);
-    line-height: 154%;
-    margin: 0;
+
+h1{
+    font-family: sans-serif;
+    color:rgba(0,0,60,0.6);
+    font-size:30px;
+  
   }
+  
+  h2{
+  
+    font-family: sans-serif;
+    color:rgba(0,0,60,0.6);
+    font-size:20px;
+  }
+  
+  strong{
+    color:olive;
+  }
+  
+  ul > li{
+      color: rgba(255,255,255,0.7);
+      
+  }
+  
+  img::before{
+    content:"Happy";
+  }
+  
+  body {
+      background-color: hsla(90, 60%, 70%, 0.4); 
+      font-family:Georgia;
+      font-size:14px;
+    }
+    
+    div{
+      margin:10px;
+    }
