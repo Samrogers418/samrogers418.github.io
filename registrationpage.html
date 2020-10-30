@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login and Registration form example</title>
+<link rel="stylesheet" type="text/css" href="register.css">
+</head>
+ 
+<body bgcolor="#E6E6FA">
+ 
+<form name="regi" action="register1.jsp" method="post">
+<h2>Workshop Registration</h2>
+ 
+  <div class="main-container">
+     
+ <p> Register now while seats are avilable!  </p>
+  <label for="fname" >First Name </label>
+<input type="text" name="fname" ><br/>
+ 
+<label  for="lname" ">Last Name </label>
+<input type="text" name="lname" ><br/>
+ 
+<label  for="comp" >Company/Instituion </label>
+<input type="text" name="comp" ><br/>
+  
+<label  for="addr">Address</label>
+<input type="text" name="addr" ><br/>
+  
+<label  for="city">City</label>
+<input type="text" name="city" ><br/>
+   
+<label for="state" >State/Province/Region</label>
+ <select name="state" >
+ <option selected >-Select-</option>
+ <option>California</option>
+ <option>Texas</option>
+ <option>Vermont</option>
+ <option>Washington</option>
+ <option>Ontario</option>
+ </select><br/><br/>
+            
+ <label for="country" >Country</label>
+ <select name="country" >
+ <option selected >-Select-</option>
+ <option>United States</option>
+ <option>Canada</option>
+  </select><br/><br/>
+
+<label  for="email">Email</label>
+<input type="text" name="email" ><br/>
+  
+<label  for="phone">Phone Number</label>
+<input type="text" name="phone" ><br/>
+ 
+   <p> Lunch</p>               
+ <label for="meal" >Meal Preference</label>
+ <select name="meal" >
+   <option selected >-Select-</option>
+   <option>Tofu</option>
+   <option>Pasta</option>
+  </select><br/><br/>
+                    
+      <p>Payment Details:</p>
+      <input type="radio" name="pmt" value="cash" checked>
+      <label for="Cash">Cash</label><br>
+      <input type="radio" name="pmt" value="cheque">
+      <label for="Cheque">Cheque</label><br>
+      <input type="radio" name="pmt" value="draft">
+      <label for="Draft">Demand Draft</label> <br/><br/>    
+                        
+  <label  for="dd">DD/Cheque No.</label>
+  <input type="text" name="dd" ><br/>   
+                              
+  <label  for="bank">Drawn On(Bank Name)</label>
+  <input type="text" name="bank" ><br/> 
+   
+   <label  for="payable">Payable at</label>
+  <input type="text" name="payable" ><br/>  
+   
+    </div>
+                                   
+   <div class="buttons">
+        <button type="submit" class="registebtn">Submit</button>
+        <button type="Reset" class="resetbtn">Reset</button>
+    </div>                              
+                                
+ 
+</form>
+ 
+
+</body>
+</html>
