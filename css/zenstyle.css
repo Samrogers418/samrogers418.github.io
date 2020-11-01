@@ -62,21 +62,19 @@ abbr {
 
 /* specific divs */
 
-/*
 .page-wrapper { 
-	background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left;
-	 
-	margin-top: 0px;; 
-	position: absolute;
-	} */
+	/*background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left;*/
+	/*padding: 0 175px 0 110px;  */
+	margin: 0;
+	position: relative;
+	}
 
 
 
 .intro { 
 	min-width: 470px;
 	width: 100%;
-	margin-top:10%;
-	
+		
 	}
 
 header h1 { 
@@ -105,8 +103,8 @@ header h2 {
 	}
 header {
 	background: #fff url(https://d2u09083uyrwez.cloudfront.net/api/file/4ur4EB4nSvShvPjoCVDf) no-repeat bottom right; 
-	padding-top: 20px;
-	height: 87px;
+	padding-top: 0px;
+	height: 100px;
 }
 
 .summary {
