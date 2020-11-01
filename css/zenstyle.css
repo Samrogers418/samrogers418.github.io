@@ -31,9 +31,7 @@ p {
 	margin-top: 0; 
 	
 		}
-.preamble,.main supporting{
-	margin-top:;
-	}
+
 h3 { 
 	font: italic bold 1.2em verdana, georgia, sans-serif;
 	letter-spacing: 1px; 
@@ -66,7 +64,7 @@ abbr {
 
 /*
 .page-wrapper { 
-	/*background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left;*/ 
+	background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left;
 	 
 	margin-top: 0px;; 
 	position: absolute;
