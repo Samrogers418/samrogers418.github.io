@@ -139,21 +139,21 @@ footer a:link, footer a:visited {
 	margin-right: 20px; 
 	}
 
-
+/*
 .sidebar {
 	margin-left: 600px; 
 	position: absolute; 
 	top: 0; 
 	right: 0;
-	}
-/*
+	}*/
+
 .sidebar {
 	margin-left: 10px; 
 	position: absolute; 
 	top: 0; 
 	left: 0;
 	border-size:2px; 
-	}*/
+	}
 .sidebar .wrapper { 
 	font: 10px verdana, sans-serif; 
 	background: transparent url(http://csszengarden.com/001/paper-bg.jpg) top left repeat-y; 
