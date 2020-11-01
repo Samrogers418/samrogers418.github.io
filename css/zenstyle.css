@@ -17,19 +17,31 @@ body {
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
 	color: #555753; 
-	background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
 	margin: 0; 
 	padding: 0;
+	background-color:#F7F2E0;
 	}
 p { 
 	margin-top: 0; 
 	text-align: justify;
+	color:black;
+	width:70%;
+	font-family:verdana;
+	margin:auto;
+	margin-top: 0; 
+	
+		}
+.preamble,.main supporting{
+	margin-top:;
 	}
 h3 { 
-	font: italic normal 1.4em georgia, sans-serif;
+	font: italic bold 1.2em verdana, georgia, sans-serif;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
 	color: #7D775C;
+	/*text-align:center;*/
+	margin-left:500px;
+
 	}
 a:link { 
 	font-weight: bold; 
@@ -51,16 +63,22 @@ abbr {
 
 
 /* specific divs */
+
+/*
 .page-wrapper { 
-	background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left; 
-	padding: 0 175px 0 110px;  
-	margin: 0; 
-	position: relative;
-	}
+	/*background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left;*/ 
+	 
+	margin-top: 0px;; 
+	position: absolute;
+	} */
+
+
 
 .intro { 
 	min-width: 470px;
 	width: 100%;
+	margin-top:10%;
+	
 	}
 
 header h1 { 
@@ -76,18 +94,19 @@ header h1 {
 	overflow: hidden;
 	}
 header h2 { 
-	background: transparent url(http://csszengarden.com/001/h2.gif) no-repeat top left; 
-	margin-top: 58px; 
+	background: transparent url(http://csszengarden.com/001/h2.gif) no-repeat top left ; 
+	margin-top: 10px; 
 	margin-bottom: 40px; 
 	width: 200px; 
-	height: 18px; 
+	height: 40px; 
 	float: right;
-
+	font-weight:bold;
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
 	}
 header {
+	background: #fff url(https://d2u09083uyrwez.cloudfront.net/api/file/4ur4EB4nSvShvPjoCVDf) no-repeat bottom right; 
 	padding-top: 20px;
 	height: 87px;
 }
@@ -96,21 +115,22 @@ header {
 	clear: both; 
 	margin: 20px 20px 20px 10px; 
 	width: 160px; 
-	float: left;
+	float: right;
 	}
 .summary p {
 	font: italic 1.1em/2.2 georgia; 
 	text-align: center;
 	}
-
+/*
 .preamble {
 	clear: right; 
 	padding: 0px 10px 0 10px;
 	}
+
 .supporting {	
 	padding-left: 10px; 
 	margin-bottom: 40px;
-	}
+	}*/
 
 footer { 
 	text-align: center; 
@@ -120,10 +140,11 @@ footer a:link, footer a:visited {
 	}
 
 .sidebar {
-	margin-left: 600px; 
+	margin-left: 10px; 
 	position: absolute; 
 	top: 0; 
-	right: 0;
+	left: 0;
+	border-size:2px; 
 	}
 .sidebar .wrapper { 
 	font: 10px verdana, sans-serif; 
@@ -185,7 +206,7 @@ footer a:link, footer a:visited {
 
 
 .extra1 {
-	background: transparent url(http://csszengarden.com/001/cr2.gif) top left no-repeat; 
+	/*background: transparent url(http://csszengarden.com/001/cr2.gif) top left no-repeat; */
 	position: absolute; 
 	top: 40px; 
 	right: 0; 
