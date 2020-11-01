@@ -6,7 +6,7 @@ body{
   /* margin:auto; */
   /* align: left; */
   background-color:white;
-  /* margin-bottom:0px; */
+  margin-bottom:10px;
 }
 
 h2{
@@ -40,7 +40,7 @@ h2{
   cursor: pointer;
   width: 100%;
   margin:auto; */
-  margin-bottom:0px;
+  margin-bottom:5px;
 
 
   /* background-color: #f1f1f1;
@@ -59,7 +59,7 @@ h2{
   /* color: #ffffff;  */
   background-color:#D8D8D8; 
   /* text-align:center;  */
-  height: 40px;	 
+  height: 30px;	 
   line-height: 20px; 
   font-size: 80%; 
   /* margin-left:-100%; 
@@ -70,7 +70,7 @@ h2{
 
   position: fixed;
   left: 0;
-  bottom: 5px;
+  bottom: 0;
   width: 100%;
   /* background-color: red; */
   color: white;
@@ -111,13 +111,16 @@ div.radlab input[type=radio]{
   /* list-style:square; */
 }
 button{
- background-color:#4CAF50;
+ background-color:#04B4AE;
  width: 8%;
  padding: 9px 5px;
- margin:5px 0;
+ margin:3px 0;
  cursor:pointer;
  border:none;
  color:#ffffff;
+ height: 25px;	 
+
+
   
  /* margin-left: 80px; */
  }
