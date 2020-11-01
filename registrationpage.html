@@ -15,34 +15,35 @@
      
  <p> Register now while seats are avilable!  </p>
  
-    <div class="label-input">
-      <label for="fname" >First Name </label><span class="required">*</span>
-     <input type="text" name="fname" class="empty" ><br/>
+<div class="left">
+    <div class="label-inputl">
+      <label class= "leftlabel" for="fname" >First Name </label><span class="required">*</span>
+     <input class ="leftinput" type="text" name="fname" class="empty" ><br/>
    </div>
  
-   <div class="label-input">
-     <label  for="lname" ">Last Name </label><span class="required">*</span>
-     <input type="text" name="lname" ><br/>
+   <div class="label-inputl">
+     <label  class= "leftlabel" for="lname" ">Last Name </label><span class="required">*</span>
+     <input class ="leftinput" type="text" name="lname" ><br/>
    </div>
 
-  <div class="label-input">                              
-    <label  for="comp" >Company/Instituion </label><span class="required">*</span>
-    <input type="text" name="comp" ><br/>
+  <div class="label-inputl">                              
+    <label  class= "leftlabel" for="comp" >Company/Instituion </label><span class="required">*</span>
+    <input class ="leftinput" type="text" name="comp" ><br/>
    </div>
  
- <div class="label-input"> 
-  <label  for="addr">Address</label><span class="required">*</span>
-  <input type="text" name="addr" ><br/>
+ <div class="label-inputl"> 
+  <label class= "leftlabel"  for="addr">Address</label><span class="required">*</span>
+  <input class ="leftinput" type="text" name="addr" ><br/>
  </div>
   
- <div class="label-input"> 
-    <label  for="city">City</label>
-    <input type="text" name="city" ><br/>
+ <div class="label-inputl"> 
+    <label class= "leftlabel"   for="city">City</label>
+    <input class ="leftinput" type="text" name="city" ><br/>
  </div>
     
- <div class="label-input">                                
-   <label for="state" >State/Province/Region</label>
-   <select name="state" >
+ <div class="label-inputl">                                
+   <label class= "leftlabel" for="state" >State/Province/Region</label>
+   <select class ="leftinput" name="state" >
    <option selected >-Select-</option>
    <option>California</option>
    <option>Texas</option>
@@ -52,30 +53,33 @@
    </select><br/><br/>
  </div>   
     
-<div class="label-input">                     
- <label for="country" >Country</label>
- <select name="country" >
+<div class="label-inputl">                     
+ <label class= "leftlabel" for="country" >Country</label>
+ <select class ="leftinput" name="country" >
    <option selected >-Select-</option>
    <option>United States</option>
    <option>Canada</option>
   </select><br/><br/>
 </div>
   
-<div class="label-input"> 
+<div class="label-inputl"> 
                 
-  <label  for="email">Email</label>
-  <input type="text" name="email" ><br/>
+  <label  class= "leftlabel" for="email">Email</label>
+  <input class ="leftinput" type="text" name="email" ><br/>
 </div>
  
- <div class="label-input">                                
-  <label  for="phone">Phone Number</label>
-  <input type="text" name="phone" ><br/>
+ <div class="label-inputl" >                                
+  <label  class= "leftlabel" for="phone">Phone Number</label>
+  <input class ="leftinput" type="text" name="phone" ><br/>
  </div>
-   
+
+</div>
+ 
+<div class= "right">  
   <div class="label-input">                               
    <p> Lunch</p>               
-   <label for="meal" >Meal Preference</label>
-   <select name="meal" >
+   <label class= "rightlabel" for="meal" >Meal Preference</label>
+   <select class ="rightinput" name="meal" >
        <option selected >-Select-</option>
        <option>Tofu</option>
        <option>Pasta</option>
@@ -83,39 +87,43 @@
   </div>
    
    <div class="label-input">                   
-      <p>Payment Details:</p>
-      <label class="rad" for="pmt">Payment Mode</label><br>
+      <p >  Payment Details:</p>
+      <label  class="rad" for="pmt">Payment Mode</label><br>
      <div class="radlab">                            
-        <input type="radio" name="pmt" value="cash" checked>
+        <input class ="rightinput" type="radio" name="pmt" value="cash" checked>
         <label for="Cash">Cash</label><br>
-        <input type="radio" name="pmt" value="cheque">
+        <input class ="rightinput" type="radio" name="pmt" value="cheque">
         <label for="Cheque">Cheque</label><br>
-        <input type="radio" name="pmt" value="draft">
+        <input class ="rightinput" type="radio" name="pmt" value="draft">
         <label for="Draft">Demand Draft</label> <br/><br/>    
    </div>  
    
    <div class="label-input">                     
-    <label  for="dd">DD/Cheque No.</label>
-    <input type="text" name="dd" ><br/>   
+    <label  class= "rightlabel" for="dd">DD/Cheque No.</label>
+    <input class ="rightinput" type="text" name="dd" ><br/>   
    </div>     
    
                                 
     <div class="label-input">                             
-      <label  for="bank">Drawn On(Bank Name)</label>
-      <input type="text" name="bank" ><br/> 
+      <label class= "rightlabel"  for="bank">Drawn On(Bank Name)</label>
+      <input class ="rightinput" type="text" name="bank" ><br/> 
     </div>
     
     <div class="label-input">                                  
-     <label  for="payable">Payable at</label>
-     <input type="text" name="payable" ><br/>  
+     <label class= "rightlabel"  for="payable">Payable at</label>
+     <input class ="rightinput" type="text" name="payable" ><br/>  
    </div>
-                                   
+
+</div>
+        
+
    <div class="buttons">
         <button type="submit" class="registebtn">Submit</button>
         <button type="Reset" class="resetbtn">Reset</button>
     </div>                              
-                                
- </form>
+   
+</form>                                                        
+ 
  
 </body>
 </html>
