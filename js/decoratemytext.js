@@ -6,7 +6,7 @@ window.onload= function(){
     // document.getElementById("but").onclick=decfont;
     // document.getElementById("but").onclick=biggerFont;
     document.getElementById("but").onclick=fonttimer;
-    document.getElementById("mal").onclick=changeword;
+    // document.getElementById("mal").onclick=changeword;
     document.getElementById("ck").onchange=checkbox;
 
 }
@@ -69,16 +69,16 @@ window.onload= function(){
   
                     }
             
-    function changeword(){
-        var str= document.getElementById("mal").value;
-        var words= str.split(" ");
-        for(var i=0;i<words.length;i++)
-        if(words[i].length>=5){
-           str.replace(words[i],"Malkovich");
-        }
-        document.getElementById("mal").value=str;
+    // function changeword(){
+    //     var str= document.getElementById("mal").value;
+    //     var words= str.split(" ");
+    //     for(var i=0;i<words.length;i++)
+    //     if(words[i].length>=5){
+    //        str.replace(words[i],"Malkovich");
+    //     }
+    //     document.getElementById("mal").value=str;
 
-    } 
+    // } 
         
                    
 
