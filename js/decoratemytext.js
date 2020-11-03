@@ -6,6 +6,7 @@ window.onload= function(){
     // document.getElementById("but").onclick=decfont;
     // document.getElementById("but").onclick=biggerFont;
     document.getElementById("but").onclick=fonttimer;
+    document.getElementById("mal").onclick=changeword;
     document.getElementById("ck").onchange=checkbox;
 
 }
@@ -40,7 +41,7 @@ window.onload= function(){
                     document.getElementById("dectext").style.fontWeight="normal";
                     document.getElementById("dectext").style.color="black"; 
                     document.getElementById("dectext").style.textDecoration="none"; 
-                    document.body.style.backgroundImage =none;
+                    document.body.style.backgroundImage ="url()";
 
                 }
                     }
@@ -50,9 +51,9 @@ window.onload= function(){
         var fontsize= parseInt(document.getElementById("dectext").style.fontSize);
         if(fontsize){
             fontsize+=2;
-            document.getElementById("dectext").style.fontSize= fontsize+"pt"
+            document.getElementById("dectext").style.fontSize= fontsize+"pt";
         }else{
-         document.getElementById("dectext").style.fontSize= "14pt" 
+         document.getElementById("dectext").style.fontSize= "14pt"; 
         }
      
             }
@@ -68,7 +69,16 @@ window.onload= function(){
   
                     }
             
-         
+    function changeword(){
+        var str= document.getElementById("mal").value;
+        var words= str.split(" ");
+        for(var i=0;i<words.length;i++)
+        if(words[i].length>=5){
+           str.replace(words[i],"Malkovich");
+        }
+        document.getElementById("mal").value=str;
+
+    } 
         
                    
 
