@@ -83,13 +83,23 @@
             return sum;
         }
 
+        // function sum(numArray){
+        //     let s= numArray.reduce((accum,element)=>accum+element);
+        //     return s;
+        // }
+
         function multiply(numArray){
-            var product=0;
+            var product=1;
             for(var i=0;i<numArray.length;i++){
                 product*=numArray[i];
             }
             return product;
         }
+
+        // function multiply(numArray){
+        //     let product= numArray.reduce((constant,element)=>constant*element);
+        //     return product;
+        // }
 
         console.log("Expected output of sum(3,6,7) is 16  " + myFunctionTest(16, function () {
             var numarr=[3,6,7];
