@@ -1,4 +1,5 @@
 "use strict";
+;
 
 window.onload= function(){
     // #1 
@@ -31,7 +32,7 @@ window.onload= function(){
 
      //#5
     function checkbox(){
-        var ckbox= document.getElementById("ck");
+        var ckbox= $("#ck");
             if(ckbox.checked){
             document.getElementById("dectext").style.fontWeight="bold"; 
             document.getElementById("dectext").style.color="green"; 
