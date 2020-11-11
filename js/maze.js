@@ -19,9 +19,7 @@
 
     }
 
-   
-
-    function win(){
+   function win(){
     
         $('#dummy').css('background-color','#ff8888');
 
